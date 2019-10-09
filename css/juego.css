@@ -12,7 +12,7 @@ ul {
 }
 li {
   padding: 5px 0;
-  animation: fadein 5s;
+  animation: fadein 3s;
 }
 li::before {
   content: "• ";
@@ -37,7 +37,7 @@ li::before {
 
 .col-60 {
   background: #E84A5F;
-
+  height: 600px;
 }
 
 #flecha{
@@ -48,9 +48,25 @@ li::before {
   text-align: center;
 }
 
-#juego div {
+#juego{
+  height: 600px;
+  width: 600px;
+  background-color: #E84A5F;
+}
+
+#juego img{
+  width: 100%;
+}
+
+#juego div{
+  box-sizing: border-box;
+  border: grey 1px dotted;
   text-align: center;
   animation: fadein 2s;
+  width: 200px;
+  height: 200px;
+  float: left;
+    
 }
 
 @keyframes fadein {
